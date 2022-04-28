@@ -1,8 +1,8 @@
-using System.Collections.Generic;
 using NUnit.Framework;
-using MyMath;
+using System.Collections.Generic;
 namespace MyMath.Tests
 {
+    [TestFixture]
     public class Tests
     {
         [SetUp]
