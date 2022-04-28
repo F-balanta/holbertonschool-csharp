@@ -19,16 +19,10 @@ namespace MyMath.Tests
             list.Sort();
             int num2 = list[list.Count - 1];
             Assert.AreEqual(num2, Result);
+
         }
         [Test]
-        public void NullList()
-        {
-            List<int> list = null;
-            int Result = Operations.Max(list);
-            Assert.AreEqual(Result, 0);
-        }
-        [Test]
-        public void MaxNegativeNumber() 
+        public void MaxNegativeNumber()
         {
             int[] array = new int[] { -25, 50, 400, -8, -52 };
             List<int> list = new List<int>(array);
