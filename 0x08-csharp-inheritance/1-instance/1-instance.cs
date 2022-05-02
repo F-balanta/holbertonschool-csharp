@@ -14,7 +14,7 @@ class Obj
     {
         if (obj == null)
             return false;
-        if (obj.GetType() == typeof(Int32[]))
+        if (typeof(Array).IsInstanceOfType(obj))
             return true;
         else
             return false;
