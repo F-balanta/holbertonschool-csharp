@@ -5,7 +5,7 @@
 class MatrixMath
 {
     /// <summary>
-    /// 
+    /// Rotate
     /// </summary>
     /// <param name="matrix"></param>
     /// <param name="angle"></param>
